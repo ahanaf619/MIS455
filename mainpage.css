@@ -1,13 +1,67 @@
+.centered{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.second{  
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+p {
+  border: 2px solid black;
+  background-color: rgb(55, 149, 192);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 2px;
+  box-shadow: 5px 4px 3px grey;
+}
+
+.bottom {
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+.top{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; */
+grid-template-columns: repeat(1, 1fr);
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.bottom p {
+  background-color: rgb(184, 202, 213);
+  width: 300px;
+ 
+}
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*navbar code form here
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #0264a5;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #030000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -16,12 +70,18 @@
   
   /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #dddddd8c;
     color: black;
   }
   
   /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
+  .topnav a.active {
+    background-color: #362488;
     color: white;
   }
+  .heading{
+    text-align: center;
+
+
+
+}
